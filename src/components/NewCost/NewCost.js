@@ -25,7 +25,9 @@ function NewCost(props) {
   return (
     <div className="new-cost">
       {!isFormVisible && (
-        <button onClick={inputCostHandler}>Add new cost</button>
+        <button className="new-btn" onClick={inputCostHandler}>
+          Add new cost
+        </button>
       )}
       {isFormVisible && (
         <CostForm

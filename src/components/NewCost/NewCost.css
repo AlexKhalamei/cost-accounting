@@ -20,6 +20,10 @@
   margin-right: 10px;
 }
 
+.new-cost .new-btn {
+  margin: 0;
+}
+
 .new-cost button:hover,
 .new-cost button:active {
   background-color: #2a5c84b2;
